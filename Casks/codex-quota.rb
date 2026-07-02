@@ -1,13 +1,13 @@
 cask "codex-quota" do
-  version "0.3.9"
+  version "0.4.1"
 
   on_arm do
     url "https://github.com/myaiisalive/codex-quota/releases/download/v#{version}/CodexQuota-#{version}-arm64.zip"
-    sha256 "0d9fa5fbddc2e2408ba0badb6f81adf636b3f62c8babaf26bccaba286b0cf51f"
+    sha256 "c3b47de9a697d9906c083886183f318e70ba2853fdee394d357ae4eaea735552"
   end
   on_intel do
     url "https://github.com/myaiisalive/codex-quota/releases/download/v#{version}/CodexQuota-#{version}-universal.zip"
-    sha256 "914e3fb65f6ba1688442d925bb17f26bfcd81c2f58c6f068b261469d5b6f2c34"
+    sha256 "3e51e49474839dc966fa08e418afa9b379de0c4d74390e56330604af70c4bcae"
   end
 
   name "CodexQuota"
